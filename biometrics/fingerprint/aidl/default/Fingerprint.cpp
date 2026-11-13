@@ -31,7 +31,7 @@ namespace {
 constexpr size_t MAX_WORKER_QUEUE_SIZE = 5;
 constexpr int SENSOR_ID = 5;
 constexpr common::SensorStrength SENSOR_STRENGTH = common::SensorStrength::STRONG;
-constexpr int MAX_ENROLLMENTS_PER_USER = 5;
+constexpr int MAX_ENROLLMENTS_PER_USER = 25;
 constexpr bool SUPPORTS_NAVIGATION_GESTURES = true;
 constexpr char HW_COMPONENT_ID[] = "fingerprintSensor";
 constexpr char HW_VERSION[] = "vendor/model/revision";

@@ -34,7 +34,7 @@ using namespace ::android::face::virt;
 namespace aidl::android::hardware::biometrics::face {
 
 const int kSensorId = 4;
-const int kMaxEnrollmentsPerUser = 5;
+const int kMaxEnrollmentsPerUser = 25;
 const bool kHalControlsPreview = true;
 const std::string kHwComponentId = "faceSensor";
 const std::string kHardwareVersion = "vendor/model/revision";
